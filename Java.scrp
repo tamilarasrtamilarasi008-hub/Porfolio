@@ -1,0 +1,7 @@
+document.getElementById("contactForm").addEventListener("submit", function(e){
+  e.preventDefault();
+
+  // Simple form response
+  document.getElementById("response").innerText =
+    "Thank you for contacting me! I will reply soon.";
+});
